@@ -5,3 +5,4 @@
 port: 8080
 pidfile: logtail.pid
 logfile: logtail.log
+htpasswd: htpasswd

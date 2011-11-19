@@ -12,6 +12,6 @@ config_filename = os.environ["LOGTAIL_CONFIG_FILENAME"]
 config.config = yay.load(open(config_filename).read())
 
 application = service.Application("logtail")
-site = appserver.NevowSite(web.Root())
+site = appserver.NevowSite(web.create_resource())
 web_server = internet.TCPServer(int(config.config['port']), site)
 web_server.setServiceParent(application)

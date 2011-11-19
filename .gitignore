@@ -6,4 +6,4 @@ eggs
 *.log
 *.egg-info
 *.wpu
-
+*.pid
