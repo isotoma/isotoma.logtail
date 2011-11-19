@@ -1,0 +1,7 @@
+# Example configuration for logtail
+# The configuration language is basically YAML
+# but with YAY macro extensions
+
+port: 8080
+pidfile: logtail.pid
+logfile: logtail.log
