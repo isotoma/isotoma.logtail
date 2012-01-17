@@ -11,6 +11,7 @@ setup(name="isotoma.logtail",
             "logtail=isotoma.logtail.scripts.logtail:run",
         ]},
       install_requires = [
+        'pyinotify',
         'nevow',
         'yay',
       ]

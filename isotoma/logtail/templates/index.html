@@ -1,5 +1,7 @@
 <html xmlns:nevow="http://nevow.com/ns/nevow/0.1">
 <body>
-    Hello, World!
+ <ul nevow:data="files" nevow:render="sequence">
+   <li nevow:pattern="item" nevow:render="file" />
+ </ul>
 </body>
 </html>

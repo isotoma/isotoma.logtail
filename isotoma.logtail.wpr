@@ -10,7 +10,9 @@ proj.directory-list = [{'dirloc': loc('isotoma'),
                         'include_hidden': False,
                         'recursive': True,
                         'watch_for_changes': True}]
-proj.file-list = [loc('buildout.cfg'),
+proj.file-list = [loc('bb.py'),
+                  loc('buildout.cfg'),
+                  loc('example.yay'),
                   loc('README'),
                   loc('setup.py')]
 proj.file-type = 'shared'

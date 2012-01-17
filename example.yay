@@ -6,3 +6,12 @@ port: 8080
 pidfile: logtail.pid
 logfile: logtail.log
 htpasswd: htpasswd
+
+tail:
+    messages:
+        # if no name is provided, the log identifier is used
+        path: /var/log/messages
+    auth:
+        name: auth.log
+        path: /var/log/auth.log
+
